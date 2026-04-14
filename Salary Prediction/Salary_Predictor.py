@@ -115,14 +115,15 @@ import pickle
 
 # save the trained model to disk
 
-filename = 'linear_regression_model.pkl'
+#filename = 'linear_regression_model.pkl'
 
 # open a file  in write-binay mode and dump the model
 
-with open(filename , 'wb') as file :
+with open('linear_regression_model.pkl', 'wb') as file :
     pickle.dump(regressor, file)
     
 print("Model has been pickled and saved as linear_regression_model.pkl")
 
 import os
-os.getcwd()
+
+print(os.path.exists('linear_regression_model.pkl'))
