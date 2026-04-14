@@ -3,7 +3,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 # Load dataset
-dataset = pd.read_csv(r'//Users/roshansingh/Desktop/A VS CODE/13.MACHINE LEARNING/6.REGRESSION/1.LINEAR REGRESSION/SIMPLE LRS/Salary Prediction/Salary_Data.csv')
+dataset = pd.read_csv(Salary_Data.csv')
 
 
 # Feature selection (independent variable X and dependent variable y)
